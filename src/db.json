@@ -26,10 +26,20 @@
       "genre": "Crime",
       "director": " Francis Ford Coppola",
       "year": "1972",
-      "imageURL": "/img/the-godfather",
+      "imageUrl": "/img/the-godfather.jpg",
       "rating": "9.2",
       "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
       "id": "2fbjq9ukm28wzkyr"
+    },
+    {
+      "title": "The Last Don",
+      "genre": "Crime",
+      "director": "Graeme Clifford",
+      "year": "1997",
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BODM0NzYzMjkzNV5BMl5BanBnXkFtZTYwNTIzNTg4._V1_.jpg",
+      "rating": "7.1",
+      "description": "Sprawling Mario Puzo novel about an Italian family of gangsters draws the inevitable comparison to \"The Godfather\", but does find its own direction. Headed by Don Domenico Clericuzio, the family kills a rival gang on the night of the Don's daughter's wedding, including her new husband, the son of his rival. Unfortunately the daughter gets pregnant and the repercussions of the night drift into the future. Spanning 1964-1985, the film jumps forward with the growing up of the grandson who has grown ruthless and scheming. A co-rival in the family is a nephew who has been raised to take his father's place in the family as a hit man and has established his place by assassinating a man who killed a senator's daughter. However, he is proven to not be ruthless enough and moves into the family's casino business in Vegas. When the nephew falls in love with a beautiful actress, everything is set in place for the grandson to set up a coup to take over the family.",
+      "id": "2fbjqao0m28xe079"
     }
   ]
 }
