@@ -4,7 +4,7 @@
       "id": "2fbjq9uwgetsrehweth4",
       "title": "Jungle Cruise",
       "imageUrl": "/img/jungle-cruise.jpeg",
-      "rating": "6",
+      "rating": 6,
       "genre": "Adventure",
       "description": "Dreaming about saving countless lives and having another adventure, the feisty English feminist and doctor of botany, Dr Lily Houghton, embarks on a peril-laden mission to change the world. Along with her fashionable brother, MacGregor, Dr Houghton enlists the help of the arrogant, wisecracking riverboat skipper, Captain Frank Wolff, to guide them through the serpentine Amazon River in La Quila, his swift wooden boat. Now, as the intrepid trio ventures deeper and deeper into the heart of an impenetrable green maze, searching for something that cannot be found, a centuries-old curse and the ruthless aristocrat, Prince Joachim, threaten to put an end to their ambitious plans."
     },
@@ -12,7 +12,7 @@
       "id": "45jhd4ui54iu",
       "title": "The Little Mermaid",
       "imageUrl": "/img/the-little-mermaid.jpg",
-      "rating": "3",
+      "rating": 3,
       "genre": "Fantasy",
       "description": "The youngest of King Triton's daughters, Ariel is a beautiful and spirited young mermaid with a thirst for adventure. Longing to find out more about the world beyond the sea, Ariel visits the surface and falls for the dashing Prince Eric. Following her heart, she makes a deal with the evil sea witch, Ursula, to experience life on land."
     },
@@ -20,7 +20,7 @@
       "id": "sgrr446ewr22fu67",
       "title": "Home Alone",
       "imageUrl": "/img/home-alone.jpeg",
-      "rating": "9.5",
+      "rating": 9.5,
       "genre": "Comedy",
       "description": "It is Christmas time and the McCallister family is preparing for a vacation in Paris, France. But the youngest in the family, Kevin (Macaulay Culkin), got into a scuffle with his older brother Buzz (Devin Ratray) and was sent to his room, which is on the third floor of his house. Then, the next morning, while the rest of the family was in a rush to make it to the airport on time, they completely forgot about Kevin, who now has the house all to himself. Being home alone was fun for Kevin, having a pizza all to himself, jumping on his parents' bed, and making a mess. Then, Kevin discovers about two burglars, Harry (Joe Pesci) and Marv (Daniel Stern), about to rob his house on Christmas Eve. Kevin acts quickly by wiring his own house with makeshift booby traps to stop the burglars and to bring them to justice."
     },
@@ -30,7 +30,7 @@
       "director": " Francis Ford Coppola",
       "year": "1972",
       "imageUrl": "/img/the-godfather.jpg",
-      "rating": "10",
+      "rating": 10,
       "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
       "id": "2fbjq9ukm28wzkyr"
     },
@@ -40,7 +40,7 @@
       "director": "Graeme Clifford",
       "year": "1997",
       "imageUrl": "https://m.media-amazon.com/images/M/MV5BODM0NzYzMjkzNV5BMl5BanBnXkFtZTYwNTIzNTg4._V1_.jpg",
-      "rating": "10",
+      "rating": 10,
       "description": "Sprawling Mario Puzo novel about an Italian family of gangsters draws the inevitable comparison to \"The Godfather\", but does find its own direction. Headed by Don Domenico Clericuzio, the family kills a rival gang on the night of the Don's daughter's wedding, including her new husband, the son of his rival. Unfortunately the daughter gets pregnant and the repercussions of the night drift into the future. Spanning 1964-1985, the film jumps forward with the growing up of the grandson who has grown ruthless and scheming. A co-rival in the family is a nephew who has been raised to take his father's place in the family as a hit man and has established his place by assassinating a man who killed a senator's daughter. However, he is proven to not be ruthless enough and moves into the family's casino business in Vegas. When the nephew falls in love with a beautiful actress, everything is set in place for the grandson to set up a coup to take over the family.",
       "id": "2fbjqao0m28xe079"
     }
