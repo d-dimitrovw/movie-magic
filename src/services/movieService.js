@@ -4,7 +4,7 @@ import uniqid from "uniqid";
 const getAll = async (filter = {}) => {
     let movies = await movieData.getAll();
     if (filter.search) {
-        movies = movies.filter(movie => movie.title.toLowerCase().includes(filter.search.toLowerCase()));
+        movies = movies.filter(movie => movie.title.toLowerCase().startsWith(filter.search.toLowerCase()));
     }
     if (filter.genre) {
         movies = movies.filter(movie => movie.genre.toLowerCase() === filter.genre.toLowerCase());
