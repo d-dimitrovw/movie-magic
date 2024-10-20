@@ -8,7 +8,7 @@ function toArray(documents) {
 }
 
 router.get('/', async (req, res) => {
-    const movies = await movieService.getAll()
+    const movies = await movieService.getAll();
     res.render('home', { movies: toArray(movies) })
 })
 
