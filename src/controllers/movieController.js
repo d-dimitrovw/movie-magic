@@ -35,6 +35,12 @@ router.get('/:movieId/details', async (req, res) => {
     res.render('movies/details', { movie })
 })
 
+router.get('/:movieId/attach', (req, res) => {
+    // const movieId = req.params.movieId;
+    res.render('movies/attach');
+
+})
+
 function getRatingViewData(rating) {
     if (!Number.isInteger(rating)) {
         return 'n\\a';
