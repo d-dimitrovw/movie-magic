@@ -7,7 +7,8 @@ const movieSchema = new Schema({
     },
     genre: {
         type: String,
-        required: true
+        required: true,
+        lowercase: true
     },
     director: {
         type: String,
@@ -35,8 +36,12 @@ const movieSchema = new Schema({
         required: true
     },
     casts: [{
-        type: Types.ObjectId,
-        ref: 'Cast'
+        _id: false,
+        character: String,
+        cast: {
+            type: Types.ObjectId,
+            ref: 'Cast'
+        },
     }]
 });
 
