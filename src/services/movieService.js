@@ -32,6 +32,7 @@ const attach = (movieId, castId, character) => {
     // movie.casts.push(castId);
     // return movie.save();
     return Movie.findByIdAndUpdate(movieId, { $push: { casts: { cast: castId, character } } });
+    
 }
 
 export default {
