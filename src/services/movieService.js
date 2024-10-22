@@ -25,7 +25,7 @@ const getAll = (filter = {}) => {
 
 const create = (movie) => Movie.create(movie);
 
-const getOne = (movieId) => Movie.findById(movieId).populate('casts');
+const getOne = (movieId) => Movie.findById(movieId).populate('casts.cast');
 
 const attach = (movieId, castId, character) => {
     // const movie = await Movie.findById(movieId);
