@@ -35,9 +35,12 @@ const attach = (movieId, castId, character) => {
     
 }
 
+const remove = (movieId) => Movie.findByIdAndDelete(movieId);
+
 export default {
     getAll,
     create,
     getOne,
     attach,
+    remove
 };
