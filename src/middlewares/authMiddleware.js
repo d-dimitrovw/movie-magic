@@ -1,23 +1,23 @@
-import jwt from 'jsonwebtoken';
+import jwt from '../lib/jwt.js';
 import { JWT_SECRET } from '../config/constants.js'
 
-export const authMiddleware = (req, res, next) => {
+export const authMiddleware = async (req, res, next) => {
     // check if there is a token in the request
     const token = req.cookies['auth'];
-
+  
     if (!token) {
         return next();
     }
 
     // validate token
     try {
-        const decodedToken = jwt.verify(token, JWT_SECRET);
+        const decodedToken = await jwt.verify(token, JWT_SECRET);
         const user = {
             _id: decodedToken._id,
             email: decodedToken.email
         }
 
-        res.user = user;
+        req.user = user;
         req.isAuthenticated = true;
         res.locals.userId = user._id;
         res.locals.userEmail = user.email;
