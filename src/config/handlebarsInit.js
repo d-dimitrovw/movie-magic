@@ -8,7 +8,7 @@ export default function handlebarsInit(app) {
                 if (!Number.isInteger(rating)) {
                     return 'n\\a';
                 }
-                return '&#x2605;'.repeat(Math.ceil(rating / 2));
+                return '&#x2605;'.repeat(rating);
             }
         }
     }))
